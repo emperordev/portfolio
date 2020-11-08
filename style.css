@@ -28,5 +28,9 @@ hr {
     color: #000;
     background: #000;
     transform: rotate(45deg);
-
 }
+
+a:link {color: mediumblue;}
+a:visited {color: purple;}
+a:hover {color: seagreen;}
+a:active {color: red;}
