@@ -1,5 +1,6 @@
 h1 {
     background-color: lightgray;
+    text: 800px;
 }
 
 header {
@@ -8,4 +9,24 @@ header {
 
 section {
     margin: 20px 40px;
+    text-align: center;
+}
+
+Body {
+    align-content: center;
+    text-align: center;
+}
+
+p {
+    text: 40px;
+}
+
+hr {
+    width: 25px; 
+    height: 25px;
+    border: none;
+    color: #000;
+    background: #000;
+    transform: rotate(45deg);
+
 }
