@@ -9,6 +9,7 @@ h2 {
 
 }
 
+
 header {
     text-align: center;
 }
@@ -24,7 +25,6 @@ Body {
 }
 
 article {
-    text-align: center;
 }
 
 p {
@@ -42,18 +42,35 @@ hr {
 }
 
 ul {
-    text-align: center;
+    list-style: inside;
+    list-style-position: inside;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: inherit;
 }
 
 ol {
-    text-align: center;
+    list-style-position: inside;
+    padding-left: inherit;
 }
 
 li {
-    text-align: center;
+    list-style-position: inside;
+    list-style: inside;
 }
 
 a:link {color: mediumblue;}
 a:visited {color: purple;}
 a:hover {color: seagreen;}
 a:active {color: red;}
+
+.list {
+    text-align: left;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.social {
+    padding: 0 10px;
+}
