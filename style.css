@@ -6,7 +6,7 @@ h1 {
 
 h2 {
     text: 50px;
-
+    padding: 5px ;
 }
 
 
@@ -47,11 +47,6 @@ ul {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: inherit;
-}
-
-ol {
-    list-style-position: inside;
     padding-left: inherit;
 }
 
