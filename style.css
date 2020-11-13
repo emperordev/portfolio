@@ -1,22 +1,25 @@
 h1 {
-    background-color: lightgray;
+    background-color: lightgray; /* consider changing the color later */
     text: 800px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* Comic Sans next time? */
 }
 
 h2 {
     text: 50px;
     padding: 5px ;
+    /* Consider padding h2*/
 }
 
 
 header {
     text-align: center;
+    /* Remember DRY, can the centering be done somewhere else? Is there more you can do with the header?*/
 }
 
 section {
     margin: 20px 40px;
     text-align: center;
+    /* Consider adding Flex for these, columns? Rows? what looks best?*/
 }
 
 Body {
@@ -24,12 +27,10 @@ Body {
     text-align: center;
 }
 
-article {
-}
-
 p {
     text: 40px;
     font-family: 'Courier New', Courier, monospace;
+    /* Consider changing font size as well for easy readabilityn*/
 }
 
 hr {
@@ -39,9 +40,11 @@ hr {
     color: #000;
     background: #000;
     transform: rotate(45deg);
+
+    /*If Flex is used for content consider a more horizontal direction instead of the diamond*/
 }
 
-ul,ol {
+ul,ol { /*Combined both properties here for uniformity*/
     list-style: inside;
     list-style-position: inside;
     display: inline-block;
@@ -51,18 +54,18 @@ ul,ol {
 }
 
 
-
+/*Pseudo classifying for links below, double check to make sure colors jive well with final layout*/
 a:link {color: mediumblue;}
 a:visited {color: purple;}
 a:hover {color: seagreen;}
 a:active {color: red;}
 
-.list {
+.list { /*This controls the class, extremely useful, don't modify unnecessarily*/
     text-align: left;
     width: 10%;
     margin: 0 auto;
 }
 
-.social {
+.social {/*Consider adding more padding in the future in case the links look crowded*/
     padding: 0 10px;
 }
