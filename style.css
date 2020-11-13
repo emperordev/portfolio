@@ -41,7 +41,7 @@ hr {
     transform: rotate(45deg);
 }
 
-ul {
+ul,ol {
     list-style: inside;
     list-style-position: inside;
     display: inline-block;
@@ -50,10 +50,7 @@ ul {
     padding-left: inherit;
 }
 
-li {
-    list-style-position: inside;
-    list-style: inside;
-}
+
 
 a:link {color: mediumblue;}
 a:visited {color: purple;}
